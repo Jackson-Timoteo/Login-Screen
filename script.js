@@ -7,5 +7,5 @@ registerBtn.addEventListener('click', () => {
 });
 
 loginBtn.addEventListener('click', () => {
-    container.addEventListener.remove('active');
+    container.classList.remove('active');
 });
