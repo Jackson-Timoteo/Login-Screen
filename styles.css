@@ -13,3 +13,85 @@ body {
     flex-direction: column;
     height: 100vh;
 }
+
+.container {
+    background: #e6e6e6;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 76px;
+    max-width: 100%;
+    min-width: 480px;
+}
+
+.container p {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin: 20px 0;
+}
+
+.container span {
+    font-size: 12px;
+}
+
+.container a {
+    color: #333;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 15px 0 10px;
+
+}
+
+.container button {
+    background: #512da8;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px splid transparent;
+    border-radius: 8px;
+    font-weight:600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.container button.hidden {
+    background: transparent;
+    border-color: #fff;
+}
+
+.container form {
+    background: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 100%;
+}
+
+.container input {
+    background: #eeefff;
+    border: 0;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+}
+
+.form-contaienr {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+}
+
+.sign-in {
+    left: 0;
+    width: 50%;
+    z-index: 2;
+}
